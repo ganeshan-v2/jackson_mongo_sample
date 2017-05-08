@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Java Servlet JSON</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <!-- bootstrap just to have good looking page -->
+    <link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
+
+    <!-- we code these -->
+    <script src="js/myfunction.js"></script>
+
+</head>
+
+<body>
+
+<h1 style="text-align:center">Java Servlet Send & Receive JSON<br></h1>
+
+<!-- User inputs -->
+<div class="user" style="margin:10px;">
+    <div class="input-prepend">
+        <span class="add-on">Name</span>
+        <input class="span4" id="name" name="name" type="text" placeholder="User Name...">
+    </div>
+    <br/>
+    <div class="input-prepend">
+        <span class="add-on">Phone Numbers</span>
+        <input class="span2" id="pnumbers" name="pnumbers" type="text" placeholder="tag1;tag2;...">
+    </div>
+    <p>
+        <button class="btn btn-primary" type="button" onclick="sendAjax()">Add</button>
+    </p>
+</div>
+
+<!-- display all users -->
+<div style="width:700px;padding:20px;S">
+    <h5 style="text-align:center"><i style="color:#ccc"><small>Users</small></i></h5>
+
+    <table id="added-users" class="table">
+        <tr>
+            <th>Name</th>
+            <th>Phone Numbers</th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

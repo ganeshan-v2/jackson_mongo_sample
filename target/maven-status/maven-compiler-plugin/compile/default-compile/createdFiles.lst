@@ -1,0 +1,6 @@
+com/jacksonexample/jacksonservlet.class
+com/jacksonexample/model/Address.class
+com/jacksonexample/mongoconvertor/AddressConverter.class
+com/jacksonexample/MongoDBContextListener.class
+com/jacksonexample/model/User.class
+com/jacksonexample/dao/AddressDAO.class
